@@ -23,7 +23,7 @@ function App() {
   };
 
   return (
-    <>
+    <div className="App">
       <div className="welcome">
         <h1>NSS E14 Shark Tank</h1>
         <h2>Please click button to start an attack!</h2>
@@ -52,7 +52,7 @@ function App() {
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 }
 
