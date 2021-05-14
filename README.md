@@ -2,7 +2,7 @@
 
 #### Overview
 Shark Attack is an app that only the strongest Nashville Software School students of E14 survive! Clicking the button starts a shark attack where a random student is chosen to follow the light.
-#### Deployed Project [![Netlify Status](https://api.netlify.com/api/v1/badges/8baee9c2-80fb-4871-97c6-7be0057909a3/deploy-status)](https://app.netlify.com/sites/lindseysatterfield-shark-attack/deploys)
+#### Deployed Project [![Netlify Status](https://api.netlify.com/api/v1/badges/73d5102f-50f6-45cc-8e31-953d1beadc45/deploy-status)](https://app.netlify.com/sites/lindseysatterfield-shark-attack/deploys)
 https://lindseysatterfield-shark-attack.netlify.app/
 
 #### Project Board
