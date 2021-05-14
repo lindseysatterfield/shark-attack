@@ -2,9 +2,9 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 const LiveStudent = ({ student }) => (
-<li>
+<div>
   {`${student.firstName} ${student.lastName}`}
-</li>
+</div>
 );
 
 LiveStudent.propTypes = {
