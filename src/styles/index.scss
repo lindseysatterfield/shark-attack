@@ -1,6 +1,64 @@
 @import "~@fortawesome/fontawesome-free/css/all.min.css";
 @import 'variables';
+$bg-img: url('https://wallpapercave.com/wp/wp2945471.jpg');
 
-body {
-  background-color: $favColor;
+html, body { 
+  background: $bg-img no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.tank {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.welcome {
+  text-align: center;
+  color: white;
+}
+
+.header {
+  display: flex;
+  justify-content: space-around;
+  margin: 1em 0;
+}
+
+.living, .dead {
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 1em;
+  width: 1000px;
+}
+
+// .container-2 {
+//   display: flex;
+//   justify-content: flex-start;
+//   flex-wrap: wrap;
+//   margin: .5em;
+// }
+
+#card {
+  width: 130px;
+  margin: .5em;
+  height: 200px;
+  box-shadow: 10px;
+}
+
+div.card-body {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.student-image {
+  width: 100%;
+  object-fit: fill;
 }
