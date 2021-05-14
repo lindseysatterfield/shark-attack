@@ -26,29 +26,29 @@ function App() {
     <>
       <div className="welcome">
         <h1>NSS E14 Shark Tank</h1>
-        <h2>Please click to button to start an attack!</h2>
+        <h2>Please click button to start an attack!</h2>
       </div>
       <div className="header">
-        {/* <h1>Living Students</h1> */}
           <Button
             color='danger'
             onClick={killEmDead}
             disabled={aliveStudents.length <= 0}
+            size="lg"
           >
             SHARK ATTACK
           </Button>
       </div>
       <div className='tank'>
         <div className="living">
-          <h1>Living Students</h1>
+          <h2>Living Students</h2>
           <div className="container">
-            <StudentList color='info' studentArray={aliveStudents} />
+            <StudentList studentArray={aliveStudents} />
           </div>
         </div>
         <div className="dead">
-          <h1>Dead Students</h1>
+          <h2>Dead Students</h2>
           <div className="container">
-            <StudentList color='secondary' studentArray={deadStudents}/>
+            <StudentList studentArray={deadStudents}/>
           </div>
         </div>
       </div>
