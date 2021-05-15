@@ -30,4 +30,4 @@ https://github.com/lindseysatterfield/shark-attack/projects/1
 [Lindsey Satterfield](https://github.com/lindseysatterfield)
 
 #### Video Walkthrough
-[Loom]()
+[Loom](https://www.loom.com/share/3867ca13ec7240a0a7556ed48597d63b)
