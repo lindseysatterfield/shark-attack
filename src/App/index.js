@@ -4,7 +4,7 @@ import {
   livingStudents,
   dearlyBeloved,
   killStudent
-} from '../helpers/data/studentData';
+} from '../helpers/data/StudentData';
 import StudentList from '../components/StudentList';
 
 function App() {
